@@ -1,8 +1,11 @@
 package com.paulgoldbaum.influxdbclient
 
 import java.nio.charset.Charset
-import org.asynchttpclient._
-import org.asynchttpclient.Realm.{AuthScheme, Builder}
+
+import play.shaded.ahc.org.asynchttpclient.Realm.{AuthScheme, Builder}
+import play.shaded.ahc.org.asynchttpclient._
+//import org.asynchttpclient._
+//import org.asynchttpclient.Realm.{AuthScheme, Builder}
 import scala.concurrent.{ExecutionContext, Future, Promise}
 import scala.collection.JavaConverters._
 

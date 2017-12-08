@@ -1,6 +1,8 @@
 package com.paulgoldbaum.influxdbclient
 
-import org.asynchttpclient.DefaultAsyncHttpClientConfig
+import play.shaded.ahc.org.asynchttpclient.DefaultAsyncHttpClientConfig
+
+//import org.asynchttpclient.DefaultAsyncHttpClientConfig
 
 class HttpConfig {
   private var builder = new DefaultAsyncHttpClientConfig.Builder
